@@ -10,9 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Homework3">
         <activity
-            android:name=".MainActivity9"
-            android:exported="true"/>
-        <activity
             android:name=".MainActivity8"
             android:exported="true" />
         <activity
@@ -35,6 +32,9 @@
             android:exported="true" />
         <activity
             android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity9"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

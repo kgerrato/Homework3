@@ -20,7 +20,7 @@ public class MainActivity9 extends AppCompatActivity {
         mButton1 = (Button) findViewById(R.id.b1);
     }
 
-    public void Start(View v) {
+    public void Confirm(View v) {
             Intent n= new Intent(this, MainActivity.class);
             startActivity(n);
         }
